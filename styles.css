@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background-color: #180003;
+    color: #d2cecd;
+}
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: rgba(106, 39, 70, 0.18823529411764706);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(106, 39, 70, 0.3);
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+header h2 {
+    font-size: 16px;
+}
+
+hr {
+    height: 1px;
+    background-color: #c88a9820;
+    border-style: none;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 32px;
+    font-family: 'Cinzel', serif;
+
+}
+
+img {
+    display: block;
+}
+
+#image {
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 0 18px #000;
+}
+
+#img-caption {
+    font-style: italic;
+    font-family: roboto, sans-serif;
+    font-size: 0.8em;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.blurb {
+    text-align: center;
+    padding: 18px;
+}
+
+#tribute-info {
+    width: 700px;
+    margin: auto;
+}
+
+
+p {
+    font-family: roboto, sans-serif;
+    padding-top: 4px;
+}
+
+.author-link {
+    text-align: center;
+    padding: 2em;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c88a98;
+}
+
+a:hover {
+    color: darkred;
+}
